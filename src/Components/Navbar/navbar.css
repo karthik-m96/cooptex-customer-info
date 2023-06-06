@@ -1,0 +1,21 @@
+.navbar {
+  background-color: rgb(244, 244, 244);
+  margin-bottom: 20px;
+}
+
+.navbar > img {
+  width: 7rem;
+  height: 8rem;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    background-color: rgb(244, 244, 244);
+  }
+  .navbar > img {
+    width: 7rem;
+    height: 8rem;
+    margin: auto;
+  }
+}

@@ -1,0 +1,45 @@
+.form {
+  max-width: 70rem;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+
+  .title {
+    background-color: rgb(222, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    margin: 30px;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    input {
+      line-height: 2.5rem;
+      border: 1px solid rgb(195, 195, 195);
+      padding: 3px;
+      border-radius: 5px;
+      margin-top: 10px;
+      
+    }
+
+    input:focus {
+      border: none;
+      -webkit-box-shadow: 0px 0px 31px 6px rgba(67, 56, 171, 0.75);
+      -moz-box-shadow: 0px 0px 31px 6px rgba(67, 56, 171, 0.75);
+      box-shadow: 0px 0px 31px 6px rgba(67, 56, 171, 0.75);
+    }
+
+    .nameEmail {
+      display: flex;
+      gap: 10rem;
+    }
+
+    .phone {
+      gap: 10rem;
+    }
+  }
+}
