@@ -50,13 +50,8 @@ const Form = () => {
             <option value="Payment">Payment</option>
           </select>
         </div>
-        <div className="field">
-          <label htmlFor="explanation">Explain the enquiry in detail:</label>
-          <br />
-          <textarea className="textArea" cols="50" rows="10"></textarea>
-        </div>
-        <div className="submit">
-          <input type="submit" value="submit" />
+        <div>
+          <button className="submit" type="submit" value="submit">Submit</button>
         </div>
       </div>
     </div>
